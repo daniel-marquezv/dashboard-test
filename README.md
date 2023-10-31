@@ -13,6 +13,5 @@ Las herramientas utilizadas para la creación del Dashboard fueron:
 - instalar las dependencias con npm install
 - Iniciar la aplicación con npm run dev 
 
-Currently, two official plugins are available:
 
 
