@@ -77,9 +77,7 @@
 .title {
     font-size: 2.0em;
     line-height: 1.5;
-    /* margin-right: 0px; */
     font-weight: bold;
-    /* color: #fefffe; */
     margin-left: 20px;
 }
 
@@ -117,8 +115,58 @@
     background-image: url("nosotros-uMov.png");
 }
 
+
+
 .centered-chart {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Se realiza un diseño responsive */
+@media (max-width: 889px) {
+    .graphics {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 12px;
+        grid-row-gap: 12px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    .parent {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .div1 {
+        grid-area: unset;
+        margin: 10%;
+    }
+
+    .div2,
+    .div3,
+    .div4 {
+        margin: 0;
+        grid-area: unset;
+    }
+
+
+    .about {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .h1 {
+        margin-top: 10px;
+        margin-left: 38%;
+        text-align: center;
+    }
+
+    .background {
+        width: 100%;
+        height: auto;
+    }
 }

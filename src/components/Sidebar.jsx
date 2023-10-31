@@ -11,8 +11,9 @@ import InfoIcon from '@mui/icons-material/Info';
 import '../assets/styles.css'
 
 export const Sidebar = () => {
+
     return (
-        <Drawer variant="permanent" anchor="left" className='sidebar rounded'>
+        <Drawer variant="permanent" anchor="left" className='sidebar rounded '>
             {/* Se agrega el icono y nombre de la empresa */}
             <ListItemIcon style={{ marginLeft: '20px', marginTop: '4px' }}>
                 <img src={'https://www.umov.cl/wp-content/uploads/2023/02/cropped-cropped-Logo-Umov-Full-Color-180x180.png'} alt="Umov Logo" style={{ width: '30px', height: '30px', marginRight: '8px' }} />
