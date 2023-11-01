@@ -5,7 +5,6 @@ import List from '@mui/material/List';
 import ListItemText from '@mui/material/ListItemText';
 import { Link } from 'react-router-dom';
 import { Home, Dashboard } from '@mui/icons-material';
-import LogoutIcon from '@mui/icons-material/Logout';
 import InfoIcon from '@mui/icons-material/Info';
 
 
@@ -57,13 +56,6 @@ export const Sidebar = () => {
                         <ListItemText primary="Nosotros" />
                     </ListItemButton>
                 </Link>
-                {/* El boton cerrar sesión es solo estetico */}
-                <ListItemButton className='list-item-button logout' >
-                    <ListItemIcon>
-                        <LogoutIcon />
-                    </ListItemIcon>
-                    Cerrar Sesión
-                </ListItemButton>
             </List>
         </Drawer>
     );
