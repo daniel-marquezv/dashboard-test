@@ -49,7 +49,7 @@ export const Sidebar = () => {
                     </ListItemButton>
                 </Link>
                 {/* El boton cerrar sesión es solo estetico */}
-                <ListItemButton style={{ marginTop: "549px" }}>
+                <ListItemButton className='list-item-button logout' >
                     <ListItemIcon>
                         <LogoutIcon />
                     </ListItemIcon>
