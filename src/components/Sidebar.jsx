@@ -8,9 +8,11 @@ import { Home, Dashboard } from '@mui/icons-material';
 import LogoutIcon from '@mui/icons-material/Logout';
 import InfoIcon from '@mui/icons-material/Info';
 
+
 import '../assets/styles.css'
 
 export const Sidebar = () => {
+
 
     return (
         <Drawer

@@ -137,13 +137,21 @@
 
 /* Se realiza un diseño responsive */
 @media (max-width: 889px) {
+
+    .title {
+        font-size: 2.0em;
+        line-height: 1.5;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+
     .graphics {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 12px;
         grid-row-gap: 12px;
-        margin-left: 30px;
+        margin-left: 90px;
         margin-top: 20px;
     }
 
@@ -152,6 +160,7 @@
         grid-template-columns: 1fr;
 
     }
+
 
     .div1 {
         grid-area: unset;
@@ -173,13 +182,82 @@
 
     .h1 {
         margin-top: 10px;
-        margin-left: 38%;
+        margin-left: 35%;
         text-align: center;
     }
 
     .background {
         width: 100%;
         height: auto;
+    }
+
+    .logout {
+        margin-top: 560px !important;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    .title {
+        font-size: 2.0em;
+        line-height: 1.5;
+        font-weight: bold;
+        margin-left: 80px;
+    }
+
+    .graphics {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 12px;
+        grid-row-gap: 12px;
+        /* margin-left: 20px; */
+        margin-top: 60px;
+    }
+
+    .parent {
+
+        grid-template-columns: 1fr;
+        /* margin-right: 100px; */
+
+    }
+
+    .div1 {
+        grid-area: unset;
+        margin: 10%;
+    }
+
+    .div2,
+    .div3,
+    .div4 {
+        /* margin: 0; */
+        grid-area: unset;
+    }
+
+    .content-container {
+        margin-left: 120px;
+    }
+
+    .about {
+        margin-left: 80px;
+        text-align: center;
+        width: 85%;
+    }
+
+    .h1 {
+        margin-top: 10px;
+        margin-left: 45%;
+        text-align: center;
+    }
+
+    .background {
+        width: 100%;
+        height: auto;
+    }
+
+    .logout {
+        margin-top: 500px !important;
     }
 }
 
